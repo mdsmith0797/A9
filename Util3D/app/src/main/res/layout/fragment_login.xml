@@ -1,0 +1,114 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_login_linearLayout_root"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context="com.se319s18a9.util3d.Fragments.LoginFragment">
+
+    <!-- Application Name -->
+
+    <TextView
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/d_global_defaultHorizontalMargin"
+        android:layout_marginTop="@dimen/d_global_defaultHorizontalMargin"
+        android:layout_width="match_parent"
+        android:text="@string/global_appName"
+        android:textColor="@color/colorGenericWhite"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <!-- Email EditText-->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:hint="@string/s_fragment_login_editText_hint_username"
+            android:id="@+id/fragment_login_editText_username"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/d_global_defaultVerticalMargin"
+            android:layout_marginStart="@dimen/d_global_defaultVerticalMargin"
+            android:layout_width="match_parent"
+            android:paddingEnd="@dimen/d_global_defaultVerticalPadding"
+            android:paddingStart="@dimen/d_global_defaultVerticalPadding"
+            android:textSize="@dimen/d_global_defaultFontSize"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- Password EditText -->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:hint="@string/s_fragment_login_editText_hint_password"
+            android:id="@+id/fragment_login_editText_password"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/d_global_defaultHorizontalMargin"
+            android:layout_marginEnd="@dimen/d_global_defaultVerticalMargin"
+            android:layout_marginStart="@dimen/d_global_defaultVerticalMargin"
+            android:layout_width="match_parent"
+            android:paddingEnd="@dimen/d_global_defaultVerticalPadding"
+            android:paddingStart="@dimen/d_global_defaultVerticalPadding"
+            android:textSize="@dimen/d_global_defaultFontSize"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- Login Button -->
+
+    <Button
+        android:background="@color/colorAccent"
+        android:id="@+id/fragment_login_button_login"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/d_global_defaultHorizontalMargin"
+        android:layout_marginEnd="@dimen/d_global_defaultVerticalMargin"
+        android:layout_marginStart="@dimen/d_global_defaultVerticalMargin"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/d_global_defaultHorizontalPadding"
+        android:paddingTop="@dimen/d_global_defaultHorizontalPadding"
+        android:text="@string/s_fragment_login_button_text_login"
+        android:textColor="@color/colorGenericWhite"
+        android:textSize="@dimen/d_global_defaultFontSize" />
+
+    <!-- Forgot Password Button -->
+
+    <Button
+        android:background="@color/colorAccent"
+        android:id="@+id/fragment_login_button_forgotPassword"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/d_global_defaultHorizontalMargin"
+        android:layout_marginEnd="@dimen/d_global_defaultVerticalMargin"
+        android:layout_marginStart="@dimen/d_global_defaultVerticalMargin"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/d_global_defaultHorizontalPadding"
+        android:paddingTop="@dimen/d_global_defaultHorizontalPadding"
+        android:text="@string/s_fragment_login_button_text_forgotPassword"
+        android:textColor="@color/colorGenericWhite"
+        android:textSize="@dimen/d_global_defaultFontSize" />
+
+    <!-- Create Account Button -->
+
+    <Button
+        android:background="@color/colorAccent"
+        android:id="@+id/fragment_login_button_createAccount"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/d_global_defaultVerticalMargin"
+        android:layout_marginStart="@dimen/d_global_defaultVerticalMargin"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/d_global_defaultHorizontalPadding"
+        android:paddingTop="@dimen/d_global_defaultHorizontalPadding"
+        android:text="@string/s_fragment_login_button_text_createAccount"
+        android:textColor="@color/colorGenericWhite"
+        android:textSize="@dimen/d_global_defaultFontSize" />
+
+</LinearLayout>

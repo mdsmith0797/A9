@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "12428293893",
+    "firebase_url": "https://util3d.firebaseio.com",
+    "project_id": "util3d",
+    "storage_bucket": "util3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12428293893:android:bc8dc7aa74570ee6",
+        "android_client_info": {
+          "package_name": "com.se319s18a9.util3d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12428293893-5tmuturijtij8sq4m1v5jml2ius6f1bh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.se319s18a9.util3d",
+            "certificate_hash": "356b5383bf3572e9f0b07811b07c32e62913eedd"
+          }
+        },
+        {
+          "client_id": "12428293893-jp1heho9n962cif8eb6mglef6amfaqit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJhqtp4aMAFeDM9YQeISM9kqYjsMZEprA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12428293893-jp1heho9n962cif8eb6mglef6amfaqit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

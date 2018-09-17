@@ -1,0 +1,85 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_dashboard_linearLayout_root"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context="com.se319s18a9.util3d.Fragments.DashboardFragment">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:id="@+id/fragment_dashboard_listview"/>
+
+    <GridLayout
+        android:columnCount="2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingEnd="@dimen/d_global_defaultVerticalPadding"
+        android:paddingStart="@dimen/d_global_defaultVerticalPadding">
+
+
+        <Button
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:id="@+id/fragment_dashboard_button_createProject"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="150dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="0dp"
+            android:text="@string/s_fragment_dashboard_button_createProject"
+            android:textColor="@color/colorGenericWhite" />
+
+        <Button
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:id="@+id/fragment_dashboard_button_openProject"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="150dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="0dp"
+            android:text="@string/s_fragment_dashboard_button_openProject"
+            android:textColor="@color/colorGenericWhite" />
+
+        <Button
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:id="@+id/fragment_dashboard_button_settings"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="150dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="0dp"
+            android:text="@string/s_fragment_dashboard_button_settings"
+            android:textColor="@color/colorGenericWhite" />
+
+        <Button
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:id="@+id/fragment_dashboard_button_logout"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="150dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="0dp"
+            android:text="@string/s_fragment_dashboard_button_logout"
+            android:textColor="@color/colorGenericWhite" />
+
+    </GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme Colors ::: https://www.materialpalette.com/light-blue/blue-grey -->
+    <color name="colorAccent">#607D8B</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorPrimaryLight">#B3E5FC</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorTextAndIcons">#FFFFFF</color>
+
+    <!-- Generic Colors -->
+    <color name="colorGenericBlack">#000000</color>
+    <color name="colorGenericBlue">#0000FF</color>
+    <color name="colorGenericGreen">#00FF00</color>
+    <color name="colorGenericOrange">#F39C12</color>
+    <color name="colorGenericRed">#FF0000</color>
+    <color name="colorGenericWhite">#FFFFFF</color>
+    <color name="colorGenericYellow">#FFFF00</color>
+
+</resources>

@@ -1,0 +1,133 @@
+<resources>
+
+    <!-- Global Strings -->
+    <string name="global_appName">Util3D</string>
+    <string name="global_fragmentName_createAccount">Create Account</string>
+    <string name="global_fragmentName_createProject">Create Project</string>
+    <string name="global_fragmentName_dashboard">Dashboard</string>
+    <string name="global_fragmentName_login">Login</string>
+    <string name="global_fragmentName_map">Map</string>
+    <string name="global_fragmentName_openProject">Open Project</string>
+    <string name="global_fragmentName_settings">Settings</string>
+
+    <!-- LoginFragment Strings -->
+    <string name="s_fragment_login_editText_hint_username">Email</string>
+    <string name="s_fragment_login_editText_hint_password">Password</string>
+    <string name="s_fragment_login_button_text_login">Login</string>
+    <string name="s_fragment_login_button_text_forgotPassword">Forgot Password</string>
+    <string name="s_fragment_login_button_text_createAccount">Create Account</string>
+    <!-- Error -->
+    <string name="s_fragment_login_errorMessage_invalidCredentials">Invalid credentials!</string>
+    <!-- Debug -->
+    <string name="s_fragment_login_debug_login">!!!LOGIN!!!</string>
+    <string name="s_fragment_login_debug_forgotPassword">!!!FORGOT PASSWORD!!!</string>
+    <string name="s_fragment_login_debug_createAccount">!!!CREATE ACCOUNT!!!</string>
+
+    <!-- CreateAccountFragment Strings -->
+    <string name="s_fragment_createAccount_title">Create New Account</string>
+    <string name="s_fragment_createAccount_editText_hint_username">Username</string>
+    <string name="s_fragment_createAccount_editText_hint_fullName">Name</string>
+    <string name="s_fragment_createAccount_editText_hint_companyName">Company Name</string>
+    <string name="s_fragment_createAccount_editText_hint_occupation">Occupation</string>
+    <string name="s_fragment_createAccount_editText_hint_phoneNumber">Phone Number</string>
+    <string name="s_fragment_createAccount_editText_hint_email">Email</string>
+    <string name="s_fragment_createAccount_editText_hint_password">Password</string>
+    <string name="s_fragment_createAccount_editText_hint_repeatPassword">Repeat Password</string>
+    <string name="s_fragment_createAccount_editText_hint_securityQuestion">Security Question</string>
+    <string name="s_fragment_createAccount_editText_hint_securityAnswer">Security Answer</string>
+    <string name="s_fragment_createAccount_button_clear">Clear</string>
+    <string name="s_fragment_createAccount_button_create">Create</string>
+    <string name="s_fragment_createAccount_button_cancel">Cancel</string>
+    <string name="s_fragment_createAccount_errorMessage_PasswordsNotMatching">Passwords do not match</string>
+    <string name="s_fragment_createAccount_errorMessage_usernameNotSet">Failed to set username. Try to change username in settings instead.</string>
+    <!-- Error -->
+    <string name="s_fragment_createAccount_errorMessage_fieldError">Field error!</string>
+    <!-- Debug -->
+    <string name="s_fragment_createAccount_debug_create">!!!CREATE!!!</string>
+    <string name="s_fragment_createAccount_debug_cancel">!!!CANCEL!!!</string>
+
+    <!-- ForgotPassword Dialog Strings -->
+    <string name="s_dialog_forgotPassword_title">Forgot Password</string>
+    <string name="s_dialog_forgotPassword_textEdit_emailInstructions">Enter your email address to receive a password reset email.</string>
+    <string name="s_dialog_forgotPassword_editText_hint_email">Email</string>
+    <string name="s_dialog_forgotPassword_button_cancel">Cancel</string>
+    <string name="s_dialog_forgotPassword_button_sendEmail">Reset password</string>
+    <string name="s_dialog_forgotPassword_toast_successMessage">Reset email sent</string>
+
+    <!-- DashboardFragment Strings -->
+    <string name="s_fragment_dashboard_textView_filesPlaceholder">Files Fragment goes here.</string>
+    <string name="s_fragment_dashboard_button_createProject">Create Project</string>
+    <string name="s_fragment_dashboard_button_openProject">Open Project</string>
+    <string name="s_fragment_dashboard_button_settings">Settings</string>
+    <string name="s_fragment_dashboard_button_logout">Logout</string>
+    <string name="s_fragment_dashboard_alertMessage_logOutPrompt">Are you sure you want to log out?</string>
+    <string name="s_fragment_dashboard_alertMessage_loggedOut">Logout successful.</string>
+
+    <!-- SettingsFragment Strings -->
+    <string name="s_fragment_settings_title">Settings</string>
+    <string name="s_fragment_settings_button_changePassword">Change Password</string>
+    <string name="s_fragment_settings_button_changeEmail">Change Email</string>
+    <string name="s_fragment_settings_button_changeUsername">Change Username</string>
+    <string name="s_fragment_settings_button_deleteAccount">Delete Account</string>
+    <string name="s_fragment_settings_imageButton_devNotes">Developer Notes</string>
+
+    <!-- ChangePassword Dialog Strings -->
+    <string name="s_dialog_changePassword_title">Change Password</string>
+    <string name="s_dialog_changePassword_editText_hint_currentPassword">Current Password</string>
+    <string name="s_dialog_changePassword_editText_hint_newPassword">New Password</string>
+    <string name="s_dialog_changePassword_editText_hint_repeatNewPassword">Repeat New Password</string>
+    <string name="s_dialog_changePassword_cancelButton">Cancel</string>
+    <string name="s_dialog_changePassword_changePasswordButton">Change Password</string>
+    <string name="s_dialog_changePassword_errorMessage_PasswordsNotMatching">Passwords do not match</string>
+    <string name="s_dialog_changePassword_successMessage">Password changed successfully</string>
+
+    <!-- ChangeEmail Dialog Strings -->
+    <string name="s_dialog_changeEmail_title">Change Email</string>
+    <string name="s_dialog_changeEmail_editText_hint_currentPassword">Verify Current Password</string>
+    <string name="s_dialog_changeEmail_editText_hint_newEmail">New Email</string>
+    <string name="s_dialog_changeEmail_editText_hint_repeatNewEmail">Repeat New Email</string>
+    <string name="s_dialog_changeEmail_cancelButton">Cancel</string>
+    <string name="s_dialog_changeEmail_changeEmailButton">Change Email</string>
+    <string name="s_dialog_changeEmail_errorMessage_EmailsNotMatching">Emails do not match</string>
+    <string name="s_dialog_changeEmail_successMessage">Email changed successfully</string>
+    <string name="s_dialog_changeEmail_currentEmailLabel">Current Email:</string>
+
+    <!-- ChangeUsername Dialog Strings -->
+    <string name="s_dialog_changeUsername_title">Change Username</string>
+    <string name="s_dialog_changeUsername_editText_hint_newUsername">New Username</string>
+    <string name="s_dialog_changeUsername_cancelButton">Cancel</string>
+    <string name="s_dialog_changeUsername_changeUsernameButton">Change Username</string>
+    <string name="s_dialog_changeUsername_successMessage">Username changed successfully</string>
+    <string name="s_dialog_changeUsername_currentUsernameLabel">Current Username:</string>
+
+    <!-- DeleteAccount Dialog Strings -->
+    <string name="s_dialog_deleteAccount_title">Delete Account</string>
+    <string name="s_dialog_deleteAccount_editText_hint_currentPassword">Current Password</string>
+    <string name="s_dialog_deleteAccount_warningLabel">This will permanently delete your account. Are you sure you want to proceed?</string>
+    <string name="s_dialog_deleteAccount_cancelButton">No. Cancel.</string>
+    <string name="s_dialog_deleteAccount_deleteAccountButton">Yes. Delete.</string>
+    <string name="s_dialog_deleteAccount_successMessage">Account Deleted</string>
+
+    <!-- CreateProjectFragment Strings -->
+    <string name="s_fragment_createProject_title">Create Project</string>
+    <string name="s_fragment_createProject_button_create">Create</string>
+    <string name="s_fragment_createProject_button_cancel">Cancel</string>
+    <string name="s_fragment_createProject_editText_hint_projectName">Project Name</string>
+    <string name="s_fragment_createProject_editText_hint_location">Location</string>
+    <string name="s_fragment_createProject_editText_hint_organization">Organization</string>
+    <string-array name="s_fragment_createProject_spinner_utilities">
+        <item>Water</item>
+        <item>Gas</item>
+        <item>Electric</item>
+        <item>Sewage</item>
+    </string-array>
+
+    <!-- MapFragment String-->
+    <string name="s_fragment_map_menu_togglemaptype">Toggle Map Type</string>
+
+    <!-- OpenProjectFragment String-->
+    <string name="s_fragment_openproject_menu_toggledetailview">Toggle Detail View</string>
+    <string name="s_fragment_openproject_menu_sort">Sort</string>
+
+
+</resources>

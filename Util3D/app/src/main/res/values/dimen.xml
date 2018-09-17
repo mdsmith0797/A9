@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    NOTE:
+     This file contains dimension definitions for Util3D. Changes to global dimensions may
+     impact multiple layout files, so make changes with care!
+ -->
+<resources>
+    <!-- Global -->
+    <dimen name="d_global_defaultHorizontalMargin">16dp</dimen>
+    <dimen name="d_global_defaultVerticalMargin">16dp</dimen>
+    <dimen name="d_global_defaultHorizontalPadding">16dp</dimen>
+    <dimen name="d_global_defaultVerticalPadding">16dp</dimen>
+    <dimen name="d_global_defaultFontSize">18sp</dimen>
+</resources>

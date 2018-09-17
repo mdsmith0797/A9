@@ -1,0 +1,63 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/d_global_defaultHorizontalPadding"
+    android:paddingTop="@dimen/d_global_defaultHorizontalPadding"
+    tools:context="com.se319s18a9.util3d.Fragments.SettingsFragment">
+
+    <Button
+        android:background="@color/colorAccent"
+        android:id="@+id/fragment_settings_button_changePassword"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/d_global_defaultHorizontalMargin"
+        android:layout_marginEnd="@dimen/d_global_defaultVerticalMargin"
+        android:layout_marginStart="@dimen/d_global_defaultVerticalMargin"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/d_global_defaultHorizontalPadding"
+        android:paddingTop="@dimen/d_global_defaultHorizontalPadding"
+        android:text="@string/s_fragment_settings_button_changePassword" />
+
+    <Button
+        android:background="@color/colorAccent"
+        android:id="@+id/fragment_settings_button_changeEmail"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/d_global_defaultHorizontalMargin"
+        android:layout_marginEnd="@dimen/d_global_defaultVerticalMargin"
+        android:layout_marginStart="@dimen/d_global_defaultVerticalMargin"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/d_global_defaultHorizontalPadding"
+        android:paddingTop="@dimen/d_global_defaultHorizontalPadding"
+        android:text="@string/s_fragment_settings_button_changeEmail" />
+
+    <Button
+        android:background="@color/colorAccent"
+        android:id="@+id/fragment_settings_button_changeUsername"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/d_global_defaultHorizontalMargin"
+        android:layout_marginEnd="@dimen/d_global_defaultVerticalMargin"
+        android:layout_marginStart="@dimen/d_global_defaultVerticalMargin"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/d_global_defaultHorizontalPadding"
+        android:paddingTop="@dimen/d_global_defaultHorizontalPadding"
+        android:text="@string/s_fragment_settings_button_changeUsername" />
+
+    <Button
+        android:background="@color/colorAccent"
+        android:id="@+id/fragment_settings_button_deleteAccount"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/d_global_defaultHorizontalMargin"
+        android:layout_marginEnd="@dimen/d_global_defaultVerticalMargin"
+        android:layout_marginStart="@dimen/d_global_defaultVerticalMargin"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/d_global_defaultHorizontalPadding"
+        android:paddingTop="@dimen/d_global_defaultHorizontalPadding"
+        android:text="@string/s_fragment_settings_button_deleteAccount" />
+
+</LinearLayout>
